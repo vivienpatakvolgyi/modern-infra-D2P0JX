@@ -16,7 +16,7 @@ def calc():
 
 
 def test_add_positive_numbers(calc):
-    assert calc.add(2, 3) == 9
+    assert calc.add(2, 3) == 5
 
 
 def test_multiply_by_zero(calc):
