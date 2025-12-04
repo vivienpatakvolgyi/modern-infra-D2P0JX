@@ -1,6 +1,6 @@
 import pytest
 
-from src.calculator import Calculator
+from calculator import Calculator
 
 
 @pytest.fixture
@@ -24,3 +24,4 @@ def test_history_stores_operations(calc):
     assert len(history) == 2
     assert history[0][0] == "add"
     assert history[1][0] == "multiply"
+
