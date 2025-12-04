@@ -3,7 +3,7 @@ name: Unit + Integration tests on master
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   tests:
